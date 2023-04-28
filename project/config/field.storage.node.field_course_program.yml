@@ -1,0 +1,23 @@
+uuid: 6682cc7f-3093-43ab-93d1-6735678a2d39
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_course_program
+field_name: field_course_program
+entity_type: node
+type: file
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

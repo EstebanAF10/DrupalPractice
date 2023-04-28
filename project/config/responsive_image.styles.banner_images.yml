@@ -1,0 +1,25 @@
+uuid: cc467b46-bfa2-453d-80cd-269c990c1143
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.large
+    - image.style.medium
+    - image.style.wide
+  theme:
+    - olivero
+id: banner_images
+label: 'Banner Images'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: wide
+    breakpoint_id: olivero.nav
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: medium
+    breakpoint_id: olivero.sm
+    multiplier: 1x
+breakpoint_group: olivero
+fallback_image_style: large
